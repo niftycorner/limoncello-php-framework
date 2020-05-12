@@ -1,20 +1,24 @@
 {
-    "name": "limoncello-php/data",
+    "name": "niftycorner/limoncello-php-data",
     "description": "Data library for Limoncello PHP framework.",
     "keywords": ["limoncello", "framework", "data", "migration", "seed"],
-    "homepage": "https://github.com/limoncello-php/framework/tree/master/components/Data",
+    "homepage": "https://github.com/niftycorner/limoncello-php-framework/tree/master/components/Data",
     "support": {
-        "issues": "https://github.com/limoncello-php/framework/issues"
+        "issues": "https://github.com/niftycorner/limoncello-php-framework/issues"
     },
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "neomerx",
             "email": "info@neomerx.com"
+        },
+        {
+            "name": "niftycorner",
+            "email": "info@niftycorner.com"
         }
     ],
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.3.0",
         "doctrine/dbal": "^2.6.3",
         "limoncello-php/contracts": "^0.10.0"
     },

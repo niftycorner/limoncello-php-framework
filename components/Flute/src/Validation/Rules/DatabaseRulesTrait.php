@@ -20,6 +20,7 @@ namespace Limoncello\Flute\Validation\Rules;
 
 use Limoncello\Flute\Validation\JsonApi\Rules\ExistInDbTableMultipleWithDoctrineRule;
 use Limoncello\Flute\Validation\JsonApi\Rules\ExistInDbTableSingleWithDoctrineRule;
+use Limoncello\Flute\Validation\JsonApi\Rules\UniqueInDbTableSingleOnUpdateConstraintWithDoctrineRule;
 use Limoncello\Flute\Validation\JsonApi\Rules\UniqueInDbTableSingleWithDoctrineRule;
 use Limoncello\Validation\Contracts\Rules\RuleInterface;
 use Limoncello\Validation\Rules\Generic\AndOperator;
@@ -69,5 +70,27 @@ trait DatabaseRulesTrait
         $primary = new UniqueInDbTableSingleWithDoctrineRule($tableName, $primaryName);
 
         return $next === null ? $primary : new AndOperator($primary, $next);
+    }
+
+    /**
+     * @param string             $tableName
+     * @param string             $primaryName
+     * @param null|string        $primaryKey
+     * @param RuleInterface|null $next
+     *
+     * @return RuleInterface
+     */
+    protected static function isUnique(
+        string $tableName,
+        string $primaryName,
+        ?string $primaryKey = null,
+        RuleInterface $next = null
+    ): RuleInterface
+    {
+        $primary = new UniqueInDbTableSingleOnUpdateConstraintWithDoctrineRule($tableName, $primaryName, $primaryKey);
+
+        return $next === null ?
+            $primary :
+            new AndOperator($primary, $next);
     }
 }
