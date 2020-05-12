@@ -18,7 +18,7 @@
         }
     ],
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.3.0",
         "limoncello-php/application": "self.version",
         "limoncello-php/auth": "self.version",
         "limoncello-php/commands": "self.version",
