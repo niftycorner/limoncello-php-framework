@@ -1,16 +1,20 @@
 {
-    "name": "limoncello-php/framework",
+    "name": "niftycorner/limoncello-php-framework",
     "description": "PHP framework framework (PSR-7)",
     "keywords": ["framework", "PSR-7", "PSR7", "limoncello"],
-    "homepage": "https://github.com/limoncello-php/framework",
+    "homepage": "https://github.com/niftycorner/limoncello-php-framework",
     "support": {
-        "issues": "https://github.com/limoncello-php/framework/issues"
+        "issues": "https://github.com/niftycorner/limoncello-php-framework/issues"
     },
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "neomerx",
             "email": "info@neomerx.com"
+        },
+        {
+            "name": "niftycorner",
+            "email": "info@niftycorner.com"
         }
     ],
     "require": {
