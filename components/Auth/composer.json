@@ -20,7 +20,7 @@
     "require": {
         "php": ">=7.3.0",
         "psr/log": "^1.0",
-        "limoncello-php/container": "^0.10.0"
+        "niftycorner/limoncello-php-container": "dev-testing"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^2.9",

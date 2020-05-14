@@ -24,10 +24,10 @@
         "zendframework/zend-diactoros": "^2.0",
         "doctrine/dbal": "^2.6.3",
         "neomerx/json-api": "^3.0.0",
-        "limoncello-php/common": "^0.10.0",
-        "limoncello-php/contracts": "^0.10.0",
-        "limoncello-php/l10n": "^0.10.0",
-        "limoncello-php/validation": "^0.10.0",
+        "niftycorner/limoncello-php-common": "dev-testing",
+        "niftycorner/limoncello-php-contracts": "dev-testing",
+        "niftycorner/limoncello-php-l10n": "dev-testing",
+        "niftycorner/limoncello-php-validation": "dev-testing",
         "brick/geo": "^0.2.6",
         "ramsey/uuid": "^4.0.0@beta"
     },
@@ -37,7 +37,7 @@
         "scrutinizer/ocular": "^1.4",
         "phpunit/phpunit": "^7.0",
         "mockery/mockery": "^1.0",
-        "limoncello-php/container": "^0.10.0",
+        "niftycorner/limoncello-php-container": "dev-testing",
         "fzaninotto/faker": "^1.7"
     },
     "autoload": {

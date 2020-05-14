@@ -21,8 +21,8 @@
     "require": {
         "php": ">=7.3.0",
         "composer-plugin-api": "^1.1",
-        "limoncello-php/common": "^0.10.0",
-        "limoncello-php/contracts": "^0.10.0"
+        "niftycorner/limoncello-php-common": "dev-testing",
+        "niftycorner/limoncello-php-contracts": "dev-testing"
     },
     "require-dev": {
         "composer/composer": "^1.5.0",
