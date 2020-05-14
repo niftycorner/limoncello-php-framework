@@ -6,7 +6,7 @@ THREAD_ID=0
 
 source "${CURRENT_DIR}/components.sh"
 
-rm -rf .subsplit/ && git subsplit init git@github.com:limoncello-php/framework.git
+rm -rf .subsplit/ && git subsplit init git@github.com:niftycorner/limoncello-php-framework.git
 
 for component in "${COMPONENTS[@]}"
 do
