@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-BRANCHES='master develop'
+BRANCHES='master develop testing'
 
 COMPONENTS=(
     'components/Application/:git@github.com:niftycorner/limoncello-php-application.git'
