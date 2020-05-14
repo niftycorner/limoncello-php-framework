@@ -1,16 +1,20 @@
 {
-    "name": "limoncello-php/application",
+    "name": "niftycorner/limoncello-php-application",
     "description": "PHP application components (PSR-7).",
     "keywords": ["limoncello", "framework", "PSR-7", "PSR7"],
-    "homepage": "https://github.com/limoncello-php/framework/tree/master/components/Application",
+    "homepage": "https://github.com/niftycorner/limoncello-php-framework/tree/master/components/Application",
     "support": {
-        "issues": "https://github.com/limoncello-php/framework/issues"
+        "issues": "https://github.com/niftycorner/limoncello-php-framework/issues"
     },
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "neomerx",
             "email": "info@neomerx.com"
+        },
+        {
+            "name": "niftycorner",
+            "email": "info@niftycorner.com"
         }
     ],
     "require": {

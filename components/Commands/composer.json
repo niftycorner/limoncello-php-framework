@@ -1,21 +1,25 @@
 {
-    "name": "limoncello-php/commands",
+    "name": "niftycorner/limoncello-php-commands",
     "type": "composer-plugin",
     "description": "Limoncello application commands support.",
     "keywords": ["limoncello", "framework", "composer", "commands"],
-    "homepage": "https://github.com/limoncello-php/framework/tree/master/components/Commands",
+    "homepage": "https://github.com/niftycorner/limoncello-php-framework/tree/master/components/Commands",
     "support": {
-        "issues": "https://github.com/limoncello-php/framework/issues"
+        "issues": "https://github.com/niftycorner/limoncello-php-framework/issues"
     },
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "neomerx",
             "email": "info@neomerx.com"
+        },
+        {
+            "name": "niftycorner",
+            "email": "info@niftycorner.com"
         }
     ],
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.3.0",
         "composer-plugin-api": "^1.1",
         "limoncello-php/common": "^0.10.0",
         "limoncello-php/contracts": "^0.10.0"

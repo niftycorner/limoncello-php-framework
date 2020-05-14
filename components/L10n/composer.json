@@ -1,20 +1,24 @@
 {
-    "name": "limoncello-php/l10n",
+    "name": "niftycorner/limoncello-php-l10n",
     "description": "Limoncello framework localization support.",
     "keywords": ["limoncello", "framework", "l10n", "localization"],
-    "homepage": "https://github.com/limoncello-php/framework/tree/master/components/L10n",
+    "homepage": "https://github.com/niftycorner/limoncello-php-framework/tree/master/components/L10n",
     "support": {
-        "issues": "https://github.com/limoncello-php/framework/issues"
+        "issues": "https://github.com/niftycorner/limoncello-php-framework/issues"
     },
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "neomerx",
             "email": "info@neomerx.com"
+        },
+        {
+            "name": "niftycorner",
+            "email": "info@niftycorner.com"
         }
     ],
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.3.0",
         "ext-intl": "*",
         "limoncello-php/contracts": "^0.10.0"
     },

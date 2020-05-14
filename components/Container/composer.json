@@ -1,20 +1,24 @@
 {
-    "name": "limoncello-php/container",
+    "name": "niftycorner/limoncello-php-container",
     "description": "Lightweight container (container interoperability).",
     "keywords": ["limoncello", "framework", "container", "interoperability", "container interoperability", "PSR"],
-    "homepage": "https://github.com/limoncello-php/framework/tree/master/components/Container",
+    "homepage": "https://github.com/niftycorner/limoncello-php-framework/tree/master/components/Container",
     "support": {
-        "issues": "https://github.com/limoncello-php/framework/issues"
+        "issues": "https://github.com/niftycorner/limoncello-php-framework/issues"
     },
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "neomerx",
             "email": "info@neomerx.com"
+        },
+        {
+            "name": "niftycorner",
+            "email": "info@niftycorner.com"
         }
     ],
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.3.0",
         "pimple/pimple": "^3.0",
         "limoncello-php/contracts": "^0.10.0"
     },

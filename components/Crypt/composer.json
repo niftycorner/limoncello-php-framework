@@ -1,20 +1,24 @@
 {
-    "name": "limoncello-php/crypt",
+    "name": "niftycorner/limoncello-php-crypt",
     "description": "Limoncello framework crypt support.",
     "keywords": ["limoncello", "framework", "crypt"],
-    "homepage": "https://github.com/limoncello-php/framework/tree/master/components/Crypt",
+    "homepage": "https://github.com/niftycorner/limoncello-php-framework/tree/master/components/Crypt",
     "support": {
-        "issues": "https://github.com/limoncello-php/framework/issues"
+        "issues": "https://github.com/niftycorner/limoncello-php-framework/issues"
     },
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "neomerx",
             "email": "info@neomerx.com"
+        },
+        {
+            "name": "niftycorner",
+            "email": "info@niftycorner.com"
         }
     ],
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.3.0",
         "limoncello-php/contracts": "^0.10.0"
     },
     "require-dev": {

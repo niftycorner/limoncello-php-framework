@@ -1,16 +1,20 @@
 {
-    "name": "limoncello-php/contracts",
+    "name": "niftycorner/limoncello-php-contracts",
     "description": "Limoncello PHP Framework Contracts (interfaces) required for components integration.",
     "keywords": ["limoncello", "framework", "contracts", "interfaces"],
-    "homepage": "https://github.com/limoncello-php/framework/tree/master/components/Contracts",
+    "homepage": "https://github.com/niftycorner/limoncello-php-framework/tree/master/components/Contracts",
     "support": {
-        "issues": "https://github.com/limoncello-php/framework/issues"
+        "issues": "https://github.com/niftycorner/limoncello-php-framework/issues"
     },
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "neomerx",
             "email": "info@neomerx.com"
+        },
+        {
+            "name": "niftycorner",
+            "email": "info@niftycorner.com"
         }
     ],
     "require": {
