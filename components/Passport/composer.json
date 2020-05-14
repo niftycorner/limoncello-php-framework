@@ -60,5 +60,6 @@
         "branch-alias": {
             "dev-develop": "0.10.x-dev"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
