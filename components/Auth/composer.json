@@ -56,5 +56,6 @@
             "dev-develop": "0.7.x-dev"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

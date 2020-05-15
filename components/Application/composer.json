@@ -63,5 +63,6 @@
             "dev-develop": "0.10.x-dev"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
