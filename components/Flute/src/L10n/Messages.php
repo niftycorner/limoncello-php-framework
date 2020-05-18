@@ -66,6 +66,8 @@ interface Messages extends \Limoncello\Validation\I18n\Messages
     /** @var string Validation Message Template */
     const UNIQUE_IN_DATABASE_SINGLE = 'The value should be a unique identifier.';
 
+    const INVALID_UUID = 'The value should be a valid UUID.';
+
     /** @var string Validation Message Template */
     const INVALID_OPERATION_ARGUMENTS = 'Invalid Operation Arguments.';
 }

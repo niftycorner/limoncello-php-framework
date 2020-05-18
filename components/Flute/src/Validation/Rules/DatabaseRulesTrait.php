@@ -20,7 +20,7 @@ namespace Limoncello\Flute\Validation\Rules;
 
 use Limoncello\Flute\Validation\JsonApi\Rules\ExistInDbTableMultipleWithDoctrineRule;
 use Limoncello\Flute\Validation\JsonApi\Rules\ExistInDbTableSingleWithDoctrineRule;
-use Limoncello\Flute\Validation\JsonApi\Rules\UniqueInDbTableSingleOnUpdateConstraintWithDoctrineRule;
+use Limoncello\Flute\Validation\JsonApi\Rules\UniqueInDbTableSingleWithUpdateConstraintDoctrineRule;
 use Limoncello\Flute\Validation\JsonApi\Rules\UniqueInDbTableSingleWithDoctrineRule;
 use Limoncello\Validation\Contracts\Rules\RuleInterface;
 use Limoncello\Validation\Rules\Generic\AndOperator;
@@ -87,7 +87,7 @@ trait DatabaseRulesTrait
         RuleInterface $next = null
     ): RuleInterface
     {
-        $primary = new UniqueInDbTableSingleOnUpdateConstraintWithDoctrineRule($tableName, $primaryName, $primaryKey);
+        $primary = new UniqueInDbTableSingleWithUpdateConstraintDoctrineRule($tableName, $primaryName, $primaryKey);
 
         return $next === null ?
             $primary :

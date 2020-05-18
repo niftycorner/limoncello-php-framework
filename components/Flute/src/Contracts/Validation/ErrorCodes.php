@@ -52,8 +52,10 @@ interface ErrorCodes extends BaseErrorCodes
     /** Message code */
     const UNIQUE_IN_DATABASE_SINGLE = self::EXIST_IN_DATABASE_MULTIPLE + 1;
 
+    const INVALID_UUID = + self::UNIQUE_IN_DATABASE_SINGLE + 1;
+
     /** Message code */
-    const INVALID_OPERATION_ARGUMENTS = self::UNIQUE_IN_DATABASE_SINGLE + 1;
+    const INVALID_OPERATION_ARGUMENTS = self::INVALID_UUID + 1;
 
     // Special code for those who extend this enum
 

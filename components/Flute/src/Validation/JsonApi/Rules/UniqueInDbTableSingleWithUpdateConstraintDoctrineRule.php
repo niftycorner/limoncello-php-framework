@@ -12,7 +12,7 @@ use Limoncello\Validation\Rules\ExecuteRule;
 /**
  * @package App
  */
-class UniqueInDbTableSingleOnUpdateConstraintWithDoctrineRule extends ExecuteRule
+class UniqueInDbTableSingleWithUpdateConstraintDoctrineRule extends ExecuteRule
 {
     /**
      * Property key
