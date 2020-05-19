@@ -29,7 +29,8 @@
         "niftycorner/limoncello-php-l10n": "dev-testing",
         "niftycorner/limoncello-php-validation": "dev-testing",
         "brick/geo": "^0.2.6",
-        "ramsey/uuid": "^4.0.0@beta"
+        "ramsey/uuid": "^4.0",
+        "ramsey/uuid-doctrine": "dev-master"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^2.9",
